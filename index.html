@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGEDesigns & IT Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0534d109c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/phil.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AGEDesigns & IT Solutions</p>
+                <h1>Hi I'm <span>Edwin</span> <br> from Ghana</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/users.jpg" alt="Photos">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Edwin, a Full-Stack Software Developer proficient in Python, C, HTML, CSS, JavaScript, .NET Framework, and Flask. Additionally, I'm a part-time Graphic Designer skilled in Adobe Photoshop and Illustrator</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-links" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Designer</span><br>Designing appealing User interface content</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Android/iOS and Desktop apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>National Service Ayensuano District Education Office
+                                <li>Administrative Assistant</li>
+                                <li>IT Support Specialist / Technician</li>
+                                <li>Data Entry Specialist / Clerk</li>
+                            </li>
+                            <li><span>2021 - 2022</span><br>TechTalk Radio Show Host/Panelist</li>
+                            <li><span>2021 - 2022</span><br>IT Tutor Nsawam Senior High</li>
+                            <li><span>2020 - Current</span><br>Freelance Graphic Designing</li>
+                            <li><span>2019 - Current</span><br>Freelance Web App Developer</li>
+                           
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Bsc ICTE UEW</li>
+                            <li><span>2018</span><br>WASSCE Nsawam Senior High</li>
+                            <li><span>2014</span><br>BECE Nsawam Methodist JHS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting digital experiences that captivate and inspire. From sleek aesthetics to intuitive functionality, I specialize in creating visually stunning and user-friendly websites that leave a lasting impression.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Elevating ideas through visual storytelling. As a graphic designer, I transform concepts into compelling visuals, merging creativity with strategic design to communicate messages that resonate.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>APP Design</h2>
+                    <p>Shaping seamless digital interactions. As an app designer, I blend creativity and user-centric design principles to craft intuitive and visually engaging mobile experiences that elevate user satisfaction and engagement.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>IT Technician & Trainer</h2>
+                    <p>Empowering through technology. As an IT Technician and Trainer, I troubleshoot and optimize systems, ensuring seamless functionality. Additionally, I share knowledge through training programs, equipping individuals with the skills needed to navigate the ever-evolving IT landscape</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Fyyur APP</h3>
+                        <p>Where Music Meets Moments. Elevate your music discovery with Fyyur, a cutting-edge app that curates personalized playlists based on your mood, setting the stage for unforgettable musical experiences. Discover, share, and immerse yourself in the perfect soundtrack for every moment.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.webp" alt="work-2">
+                    <div class="layer">
+                        <h3>Coffe Shop App</h3>
+                        <p>Sip, savor, and stay connected with our Coffee Shop app. Experience the perfect blend of convenience and indulgence as you explore our menu, order with ease, and enjoy the cozy ambiance of your favorite coffee spot right at your fingertips.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/philma.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Logo Design</h3>
+                        <p>Crafting identities with impact. Our logo designs are more than symbols they tell stories. Elevate your brand with a unique visual signature that captures the essence of your identity and leaves a lasting impression</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!--------contact----------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> eddierage22@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0275996029</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/edwin.adjanor.35"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/edwin-adjanor-241707195"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/PopAge"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/EddieGuardian?t=5lqGNF9oZJ6bxL1-hm66lg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+                </div>
+                <a href="Docs/Edwin A. Adjanor_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input id="Name" type="text" name="Name" placeholder="Your Name" required autocomplete="off">
+                    <input id="Email" type="email" name="Email" placeholder="Your Email" required autocomplete="off">
+                    <textarea id="Message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Edwin Adu Adjanor. <i class="fa-solid fa-heart"></i> AGEDesigns & IT Solutions</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8zGSOPiJmjYyAHsq6gYRBJRbE8GEgMZnfhvgP121QGnJbpMB9XQhxhMAJNXfv-Fw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
