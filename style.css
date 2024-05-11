@@ -123,7 +123,12 @@ nav ul li a:hover::after{
     list-style: none;
     margin: 10px 0;
 }
+.tab-contents ul ul li{
+    text-indent: 5%;
+    margin: 10px 0;
+}
 .tab-contents ul li span{
+    list-style: circle;
     color: #8a8308;
     font-size: 14px;
 }
@@ -132,6 +137,13 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+.tab-contents.active-tab ul li a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.tab-contents.active-tab ul li a:visited{
+    color:#ffffff;
 }
 
 /*----------services--------------*/
